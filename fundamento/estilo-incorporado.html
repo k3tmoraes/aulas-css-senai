@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background: #eee;
+        }
+        header{
+            background: #ddd;
+            margin: 10px 20px 5px 25px;/* topo, direita, baixo, esquerda */
+        }
+        main{
+            background: #aaa;
+            padding: 20px 10px;/* topo baixo, esquerda direita */
+        } 
+        p{
+            color: #f00;
+        }
+        #primeiro-paragrafo{
+            color:#0ff;
+        }
+        .paragrafo-padrao-classe{
+            color: #ff0;
+        }
+        footer{
+            background: #535353;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Principal</h1>
+    </header>
+    <main>
+        <h2>Título Secundario</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur fuga, doloremque odio laudantium soluta accusantium voluptatum optio fugiat, nobis aspernatur earum iure quas delectus architecto magnam maiores, mollitia ipsum?</p>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eum aliquam, modi magni odit repudiandae qui totam fuga adipisci voluptatibus in, ratione, similique nulla provident vel optio iusto. Necessitatibus, nemo?</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eum aliquam, modi magni odit repudiandae qui totam fuga adipisci voluptatibus in, ratione, similique nulla provident vel optio iusto. Necessitatibus, nemo?</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eum aliquam, modi magni odit repudiandae qui totam fuga adipisci voluptatibus in, ratione, similique nulla provident vel optio iusto. Necessitatibus, nemo?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy;Todos os direitos resevados</address>
+    </footer>
+
+</body>
+</html>
